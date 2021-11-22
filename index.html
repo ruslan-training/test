@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Nunito+Sans:wght@400;700;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        
+    <title>Crabb</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <header class="header">
+            <div class="header__top-menu top-menu">
+                <a class="top-menu__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <ul class="top-menu__nav nav"> <!--adaptive menu-->
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Каталог</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Услуги</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Новости</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">О компании</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__user user">
+                <div class="user__search">
+                    <a class="user__link">Поиск</a>
+                    <div class="user__icon _search"> 
+                    </div>
+                </div>
+                <div class="user__account">
+                    <a class=" user__link">Вход</a>
+                    <div class=" user__icon _account">
+                    </div>
+                </div>
+            </div>
+        </header><!--HEADER-->
+    </div><!--CONTAINER HEADER-->
+    <section class="slider swiper-container">
+        <div class="slider__wrapper swiper-wrapper">
+                <div class="slider__slide slide swiper-slide">
+                    <div class="slide__img">
+                        <img src="img/orange.png" alt="">
+                        <div class="abs-img">
+                            <img src="img/slide1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slide__text-box">
+                        <div class="slide__sub-title">
+                            Идеальное решение
+                        </div>
+                        <h1>Антивандальные автоматические<br> сушилки Crabb
+                        </h1>
+                        <p class="slide__text">
+                            Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+                        </p>
+                        <div class="slide__buttons">
+                            <button class="slide__button btn">
+                                Смотреть каталог
+                            </button>
+                            <button class="slide__button btn">
+                                Заказать звонок
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide slide swiper-slide">
+                    <div class="slide__img">
+                        <img src="img/orange.png" alt="">
+                        <div class="abs-img abs-img _two">
+                            <img src="img/slide2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slide__text-box">
+                        <div class="slide__sub-title">
+                            Идеальное решение
+                        </div>
+                        <h1>Антивандальные автоматические<br> сушилки Crabb
+                        </h1>
+                        <p class="slide__text">
+                            Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+                        </p>
+                        <div class="slide__buttons">
+                            <button class="slide__button btn">
+                                Смотреть каталог
+                            </button>
+                            <button class="slide__button btn">
+                                Заказать звонок
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide slide swiper-slide">
+                    <div class="slide__img">
+                        <img src="img/orange.png" alt="">
+                        <div class="abs-img abs-img _tree">
+                            <img src="img/slide3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slide__text-box">
+                        <div class="slide__sub-title">
+                            Идеальное решение
+                        </div>
+                        <h1>Антивандальные автоматические<br> сушилки Crabb
+                        </h1>
+                        <p class="slide__text">
+                            Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+                        </p>
+                        <div class="slide__buttons">
+                            <button class="slide__button btn">
+                                Смотреть каталог
+                            </button>
+                            <button class="slide__button btn">
+                                Заказать звонок
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> 
+        <div class="swiper-pagination"></div>  
+    </section>
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="source/js/script.js"></script>    
+</body>
+</html>
